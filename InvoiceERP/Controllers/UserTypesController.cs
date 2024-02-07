@@ -3,10 +3,11 @@ using InvoiceERP.IRepositories;
 using InvoiceERP.Models;
 using System;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc.Routing;
 
 namespace InvoiceERP.Controllers
 {
-    
+    [Route("UserTypes")]
     public class UserTypesController : Controller
     {
         private readonly IUserTypeService _userTypeService;

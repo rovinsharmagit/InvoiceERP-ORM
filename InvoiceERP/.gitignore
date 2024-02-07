@@ -9,3 +9,5 @@ obj/
 # Ignore user-specific files
 *.user
 *.suo
+
+.env

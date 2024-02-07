@@ -1,3 +1,19 @@
+----
+[![wakatime](https://wakatime.com/badge/user/018b52ca-833c-449a-8a52-a35427011708/project/018d5f9d-f096-4e7a-a47a-a6ef653de923.svg)](https://wakatime.com/badge/user/018b52ca-833c-449a-8a52-a35427011708/project/018d5f9d-f096-4e7a-a47a-a6ef653de923)
+----
+[![wakatime](https://wakatime.com/badge/github/rovinsharmagit/InvoiceERP--ORM-.svg)](https://wakatime.com/badge/github/rovinsharmagit/InvoiceERP--ORM-)
+----
+
+### 🛠 &nbsp;Languages and Tools :
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,bootstrap,cs,css,dotnet,github,js,jquery,visualstudio,vscode" />
+  </a>
+</p>
+
+----
+
 # InvoiceORM App
 
 This is a C# ASP.NET Core application for managing invoicing using SQL Server as the database backend. The application provides functionalities for managing various aspects of invoicing including customers, suppliers, invoices, payments, and more.

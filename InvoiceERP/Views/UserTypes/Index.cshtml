@@ -1,4 +1,4 @@
-@model IEnumerable<InvoiceERP.Models.TblUserType>
+﻿@model IEnumerable<InvoiceERP.Models.TblUserType>
 
 @{
     ViewData["Title"] = "Index";
@@ -19,17 +19,21 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.UserType)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.UserTypeId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.UserTypeId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.UserTypeId">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserType)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.UserTypeId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.UserTypeId">Details</a> |
+                    <form asp-action="Delete" asp-route-id="@item.UserTypeId" method="post" onsubmit="return confirm('Are you sure you want to delete this item?');">
+                        <input type="submit" value="Delete" class="btn btn-danger" />
+                        @Html.AntiForgeryToken()
+                    </form>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

@@ -1,5 +1,7 @@
 
 using InvoiceERP.iDbContext;
+using InvoiceERP.IRepositories;
+using InvoiceERP.IServices;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -9,6 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<IDataContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnections")));
+builder.Services.AddScoped<IUserTypeService, UserTypeService>();
 
 
 var app = builder.Build();

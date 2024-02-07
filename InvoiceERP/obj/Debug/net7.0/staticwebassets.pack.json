@@ -5,6 +5,774 @@
       "PackagePath": "staticwebassets\\InvoiceERP.bundle.scp.css"
     },
     {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\css\\app-rtl.css",
+      "PackagePath": "staticwebassets\\content\\css\\app-rtl.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\css\\app.css",
+      "PackagePath": "staticwebassets\\content\\css\\app.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\css\\bootstrap-rtl.css",
+      "PackagePath": "staticwebassets\\content\\css\\bootstrap-rtl.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\content\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\css\\theme-a.css",
+      "PackagePath": "staticwebassets\\content\\css\\theme-a.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\css\\theme-b.css",
+      "PackagePath": "staticwebassets\\content\\css\\theme-b.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\css\\theme-c.css",
+      "PackagePath": "staticwebassets\\content\\css\\theme-c.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\css\\theme-d.css",
+      "PackagePath": "staticwebassets\\content\\css\\theme-d.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\css\\theme-e.css",
+      "PackagePath": "staticwebassets\\content\\css\\theme-e.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\css\\theme-f.css",
+      "PackagePath": "staticwebassets\\content\\css\\theme-f.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\css\\theme-g.css",
+      "PackagePath": "staticwebassets\\content\\css\\theme-g.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\css\\theme-h.css",
+      "PackagePath": "staticwebassets\\content\\css\\theme-h.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\bg1.jpg",
+      "PackagePath": "staticwebassets\\content\\img\\bg1.jpg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\bg10.jpg",
+      "PackagePath": "staticwebassets\\content\\img\\bg10.jpg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\bg2.jpg",
+      "PackagePath": "staticwebassets\\content\\img\\bg2.jpg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\bg3.jpg",
+      "PackagePath": "staticwebassets\\content\\img\\bg3.jpg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\bg4.jpg",
+      "PackagePath": "staticwebassets\\content\\img\\bg4.jpg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\bg5.jpg",
+      "PackagePath": "staticwebassets\\content\\img\\bg5.jpg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\bg6.jpg",
+      "PackagePath": "staticwebassets\\content\\img\\bg6.jpg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\bg7.jpg",
+      "PackagePath": "staticwebassets\\content\\img\\bg7.jpg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\bg8.jpg",
+      "PackagePath": "staticwebassets\\content\\img\\bg8.jpg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\bg9.jpg",
+      "PackagePath": "staticwebassets\\content\\img\\bg9.jpg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\dummy.png",
+      "PackagePath": "staticwebassets\\content\\img\\dummy.png"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\lock-bg.jpg",
+      "PackagePath": "staticwebassets\\content\\img\\lock-bg.jpg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\logo-single.png",
+      "PackagePath": "staticwebassets\\content\\img\\logo-single.png"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\logo.png",
+      "PackagePath": "staticwebassets\\content\\img\\logo.png"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\mb-sample.jpg",
+      "PackagePath": "staticwebassets\\content\\img\\mb-sample.jpg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\mockup.png",
+      "PackagePath": "staticwebassets\\content\\img\\mockup.png"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\profile-bg.jpg",
+      "PackagePath": "staticwebassets\\content\\img\\profile-bg.jpg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\user\\01.jpg",
+      "PackagePath": "staticwebassets\\content\\img\\user\\01.jpg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\user\\02.jpg",
+      "PackagePath": "staticwebassets\\content\\img\\user\\02.jpg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\user\\03.jpg",
+      "PackagePath": "staticwebassets\\content\\img\\user\\03.jpg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\user\\04.jpg",
+      "PackagePath": "staticwebassets\\content\\img\\user\\04.jpg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\user\\05.jpg",
+      "PackagePath": "staticwebassets\\content\\img\\user\\05.jpg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\user\\06.jpg",
+      "PackagePath": "staticwebassets\\content\\img\\user\\06.jpg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\user\\07.jpg",
+      "PackagePath": "staticwebassets\\content\\img\\user\\07.jpg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\user\\08.jpg",
+      "PackagePath": "staticwebassets\\content\\img\\user\\08.jpg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\user\\09.jpg",
+      "PackagePath": "staticwebassets\\content\\img\\user\\09.jpg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\user\\10.jpg",
+      "PackagePath": "staticwebassets\\content\\img\\user\\10.jpg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\user\\11.jpg",
+      "PackagePath": "staticwebassets\\content\\img\\user\\11.jpg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\user\\12.jpg",
+      "PackagePath": "staticwebassets\\content\\img\\user\\12.jpg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\img\\user\\13.jpg",
+      "PackagePath": "staticwebassets\\content\\img\\user\\13.jpg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\js\\app.js",
+      "PackagePath": "staticwebassets\\content\\js\\app.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\server\\datatable.json",
+      "PackagePath": "staticwebassets\\content\\server\\datatable.json"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\server\\documentation\\readme.md",
+      "PackagePath": "staticwebassets\\content\\server\\documentation\\readme.md"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\server\\i18n\\site-en.json",
+      "PackagePath": "staticwebassets\\content\\server\\i18n\\site-en.json"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\server\\i18n\\site-es.json",
+      "PackagePath": "staticwebassets\\content\\server\\i18n\\site-es.json"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\server\\xeditable-groups.json",
+      "PackagePath": "staticwebassets\\content\\server\\xeditable-groups.json"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\@ttskch\\select2-bootstrap4-theme\\dist\\select2-bootstrap4.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\@ttskch\\select2-bootstrap4-theme\\dist\\select2-bootstrap4.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\animate.css\\animate.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\animate.css\\animate.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\animo\\animo.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\animo\\animo.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\bootstrap-colorpicker\\dist\\css\\bootstrap-colorpicker.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\bootstrap-colorpicker\\dist\\css\\bootstrap-colorpicker.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\bootstrap-colorpicker\\dist\\img\\bootstrap-colorpicker\\alpha-horizontal.png",
+      "PackagePath": "staticwebassets\\content\\vendor\\bootstrap-colorpicker\\dist\\img\\bootstrap-colorpicker\\alpha-horizontal.png"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\bootstrap-colorpicker\\dist\\img\\bootstrap-colorpicker\\alpha.png",
+      "PackagePath": "staticwebassets\\content\\vendor\\bootstrap-colorpicker\\dist\\img\\bootstrap-colorpicker\\alpha.png"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\bootstrap-colorpicker\\dist\\img\\bootstrap-colorpicker\\hue-horizontal.png",
+      "PackagePath": "staticwebassets\\content\\vendor\\bootstrap-colorpicker\\dist\\img\\bootstrap-colorpicker\\hue-horizontal.png"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\bootstrap-colorpicker\\dist\\img\\bootstrap-colorpicker\\hue.png",
+      "PackagePath": "staticwebassets\\content\\vendor\\bootstrap-colorpicker\\dist\\img\\bootstrap-colorpicker\\hue.png"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\bootstrap-colorpicker\\dist\\img\\bootstrap-colorpicker\\saturation.png",
+      "PackagePath": "staticwebassets\\content\\vendor\\bootstrap-colorpicker\\dist\\img\\bootstrap-colorpicker\\saturation.png"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\bootstrap-colorpicker\\dist\\js\\bootstrap-colorpicker.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\bootstrap-colorpicker\\dist\\js\\bootstrap-colorpicker.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\bootstrap-datepicker\\dist\\css\\bootstrap-datepicker.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\bootstrap-datepicker\\dist\\css\\bootstrap-datepicker.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\bootstrap-datepicker\\dist\\js\\bootstrap-datepicker.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\bootstrap-datepicker\\dist\\js\\bootstrap-datepicker.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\bootstrap-filestyle\\src\\bootstrap-filestyle.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\bootstrap-filestyle\\src\\bootstrap-filestyle.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\bootstrap-slider\\dist\\bootstrap-slider.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\bootstrap-slider\\dist\\bootstrap-slider.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\bootstrap-slider\\dist\\css\\bootstrap-slider.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\bootstrap-slider\\dist\\css\\bootstrap-slider.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\bootstrap-tagsinput\\dist\\bootstrap-tagsinput.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\bootstrap-tagsinput\\dist\\bootstrap-tagsinput.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\bootstrap-tagsinput\\dist\\bootstrap-tagsinput.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\bootstrap-tagsinput\\dist\\bootstrap-tagsinput.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\bootstrap-wysiwyg\\css\\style.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\bootstrap-wysiwyg\\css\\style.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\bootstrap-wysiwyg\\js\\bootstrap-wysiwyg.min.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\bootstrap-wysiwyg\\js\\bootstrap-wysiwyg.min.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\chart.js\\dist\\Chart.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\chart.js\\dist\\Chart.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\chartist\\dist\\chartist.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\chartist\\dist\\chartist.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\chartist\\dist\\chartist.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\chartist\\dist\\chartist.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\chosen-js\\chosen-sprite.png",
+      "PackagePath": "staticwebassets\\content\\vendor\\chosen-js\\chosen-sprite.png"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\chosen-js\\chosen-sprite@2x.png",
+      "PackagePath": "staticwebassets\\content\\vendor\\chosen-js\\chosen-sprite@2x.png"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\chosen-js\\chosen.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\chosen-js\\chosen.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\chosen-js\\chosen.jquery.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\chosen-js\\chosen.jquery.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\components-jqueryui\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\components-jqueryui\\jquery-ui.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\components-jqueryui\\themes\\smoothness\\images\\ui-bg_glass_55_fbf9ee_1x400.png",
+      "PackagePath": "staticwebassets\\content\\vendor\\components-jqueryui\\themes\\smoothness\\images\\ui-bg_glass_55_fbf9ee_1x400.png"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\components-jqueryui\\themes\\smoothness\\images\\ui-bg_glass_65_ffffff_1x400.png",
+      "PackagePath": "staticwebassets\\content\\vendor\\components-jqueryui\\themes\\smoothness\\images\\ui-bg_glass_65_ffffff_1x400.png"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\components-jqueryui\\themes\\smoothness\\images\\ui-bg_glass_75_dadada_1x400.png",
+      "PackagePath": "staticwebassets\\content\\vendor\\components-jqueryui\\themes\\smoothness\\images\\ui-bg_glass_75_dadada_1x400.png"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\components-jqueryui\\themes\\smoothness\\images\\ui-bg_glass_75_e6e6e6_1x400.png",
+      "PackagePath": "staticwebassets\\content\\vendor\\components-jqueryui\\themes\\smoothness\\images\\ui-bg_glass_75_e6e6e6_1x400.png"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\components-jqueryui\\themes\\smoothness\\images\\ui-bg_glass_95_fef1ec_1x400.png",
+      "PackagePath": "staticwebassets\\content\\vendor\\components-jqueryui\\themes\\smoothness\\images\\ui-bg_glass_95_fef1ec_1x400.png"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\components-jqueryui\\themes\\smoothness\\images\\ui-bg_highlight-soft_75_cccccc_1x100.png",
+      "PackagePath": "staticwebassets\\content\\vendor\\components-jqueryui\\themes\\smoothness\\images\\ui-bg_highlight-soft_75_cccccc_1x100.png"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\components-jqueryui\\themes\\smoothness\\images\\ui-icons_222222_256x240.png",
+      "PackagePath": "staticwebassets\\content\\vendor\\components-jqueryui\\themes\\smoothness\\images\\ui-icons_222222_256x240.png"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\components-jqueryui\\themes\\smoothness\\images\\ui-icons_2e83ff_256x240.png",
+      "PackagePath": "staticwebassets\\content\\vendor\\components-jqueryui\\themes\\smoothness\\images\\ui-icons_2e83ff_256x240.png"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\components-jqueryui\\themes\\smoothness\\images\\ui-icons_454545_256x240.png",
+      "PackagePath": "staticwebassets\\content\\vendor\\components-jqueryui\\themes\\smoothness\\images\\ui-icons_454545_256x240.png"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\components-jqueryui\\themes\\smoothness\\images\\ui-icons_888888_256x240.png",
+      "PackagePath": "staticwebassets\\content\\vendor\\components-jqueryui\\themes\\smoothness\\images\\ui-icons_888888_256x240.png"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\components-jqueryui\\themes\\smoothness\\images\\ui-icons_cd0a0a_256x240.png",
+      "PackagePath": "staticwebassets\\content\\vendor\\components-jqueryui\\themes\\smoothness\\images\\ui-icons_cd0a0a_256x240.png"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\components-jqueryui\\themes\\smoothness\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\components-jqueryui\\themes\\smoothness\\jquery-ui.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\cropper\\dist\\cropper.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\cropper\\dist\\cropper.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\cropper\\dist\\cropper.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\cropper\\dist\\cropper.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\d3\\d3.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\d3\\d3.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\datatables.net-bs4\\css\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\datatables.net-bs4\\css\\dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\datatables.net-bs4\\js\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\datatables.net-bs4\\js\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\datatables.net-buttons-bs\\css\\buttons.bootstrap.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\datatables.net-buttons-bs\\css\\buttons.bootstrap.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\datatables.net-buttons-bs\\js\\buttons.bootstrap.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\datatables.net-buttons-bs\\js\\buttons.bootstrap.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\datatables.net-buttons\\js\\buttons.colVis.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\datatables.net-buttons\\js\\buttons.colVis.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\datatables.net-buttons\\js\\buttons.flash.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\datatables.net-buttons\\js\\buttons.flash.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\datatables.net-buttons\\js\\buttons.html5.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\datatables.net-buttons\\js\\buttons.html5.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\datatables.net-buttons\\js\\buttons.print.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\datatables.net-buttons\\js\\buttons.print.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\datatables.net-buttons\\js\\dataTables.buttons.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\datatables.net-buttons\\js\\dataTables.buttons.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\datatables.net-keytable-bs\\css\\keyTable.bootstrap.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\datatables.net-keytable-bs\\css\\keyTable.bootstrap.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\datatables.net-keytable\\js\\dataTables.keyTable.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\datatables.net-keytable\\js\\dataTables.keyTable.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\datatables.net-responsive-bs\\css\\responsive.bootstrap.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\datatables.net-responsive-bs\\css\\responsive.bootstrap.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\datatables.net-responsive-bs\\js\\responsive.bootstrap.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\datatables.net-responsive-bs\\js\\responsive.bootstrap.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\datatables.net-responsive\\js\\dataTables.responsive.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\datatables.net-responsive\\js\\dataTables.responsive.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\datatables.net\\js\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\datatables.net\\js\\jquery.dataTables.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\dropzone\\dist\\basic.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\dropzone\\dist\\basic.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\dropzone\\dist\\dropzone.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\dropzone\\dist\\dropzone.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\dropzone\\dist\\dropzone.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\dropzone\\dist\\dropzone.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\easy-pie-chart\\dist\\jquery.easypiechart.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\easy-pie-chart\\dist\\jquery.easypiechart.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\fastclick\\lib\\fastclick.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\fastclick\\lib\\fastclick.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\flatdoc\\flatdoc.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\flatdoc\\flatdoc.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\flot\\jquery.flot.categories.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\flot\\jquery.flot.categories.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\flot\\jquery.flot.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\flot\\jquery.flot.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\flot\\jquery.flot.pie.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\flot\\jquery.flot.pie.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\flot\\jquery.flot.resize.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\flot\\jquery.flot.resize.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\flot\\jquery.flot.time.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\flot\\jquery.flot.time.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\font-awesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\font-awesome\\css\\font-awesome.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\font-awesome\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\content\\vendor\\font-awesome\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\content\\vendor\\font-awesome\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\content\\vendor\\font-awesome\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\content\\vendor\\font-awesome\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\content\\vendor\\font-awesome\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\font-awesome\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\content\\vendor\\font-awesome\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\fullcalendar\\dist\\fullcalendar.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\fullcalendar\\dist\\fullcalendar.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\fullcalendar\\dist\\fullcalendar.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\fullcalendar\\dist\\fullcalendar.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\fullcalendar\\dist\\gcal.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\fullcalendar\\dist\\gcal.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\html5sortable\\dist\\html.sortable.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\html5sortable\\dist\\html.sortable.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\ika.jvectormap\\jquery-jvectormap-1.2.2.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\ika.jvectormap\\jquery-jvectormap-1.2.2.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\ika.jvectormap\\jquery-jvectormap-1.2.2.min.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\ika.jvectormap\\jquery-jvectormap-1.2.2.min.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\ika.jvectormap\\jquery-jvectormap-us-mill-en.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\ika.jvectormap\\jquery-jvectormap-us-mill-en.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\ika.jvectormap\\jquery-jvectormap-world-mill-en.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\ika.jvectormap\\jquery-jvectormap-world-mill-en.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\inputmask\\dist\\jquery.inputmask.bundle.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\inputmask\\dist\\jquery.inputmask.bundle.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\jqcloud2\\dist\\jqcloud.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\jqcloud2\\dist\\jqcloud.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\jqcloud2\\dist\\jqcloud.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\jqcloud2\\dist\\jqcloud.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\jquery-bootgrid\\dist\\jquery.bootgrid.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\jquery-bootgrid\\dist\\jquery.bootgrid.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\jquery-bootgrid\\dist\\jquery.bootgrid.fa.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\jquery-bootgrid\\dist\\jquery.bootgrid.fa.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\jquery-bootgrid\\dist\\jquery.bootgrid.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\jquery-bootgrid\\dist\\jquery.bootgrid.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\jquery-knob\\dist\\jquery.knob.min.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\jquery-knob\\dist\\jquery.knob.min.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\jquery-localize\\dist\\jquery.localize.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\jquery-localize\\dist\\jquery.localize.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\jquery-slimscroll\\jquery.slimscroll.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\jquery-slimscroll\\jquery.slimscroll.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\jquery-sparkline\\jquery.sparkline.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\jquery-sparkline\\jquery.sparkline.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\jquery-steps\\build\\jquery.steps.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\jquery-steps\\build\\jquery.steps.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\jquery.easing\\jquery.easing.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\jquery.easing\\jquery.easing.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\jquery.flot.spline\\jquery.flot.spline.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\jquery.flot.spline\\jquery.flot.spline.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\jquery.flot.tooltip\\js\\jquery.flot.tooltip.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\jquery.flot.tooltip\\js\\jquery.flot.tooltip.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\jquery.gmap\\jquery.gmap.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\jquery.gmap\\jquery.gmap.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\jqueryui-touch-punch\\jquery.ui.touch-punch.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\jqueryui-touch-punch\\jquery.ui.touch-punch.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\js-storage\\js.storage.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\js-storage\\js.storage.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\jszip\\dist\\jszip.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\jszip\\dist\\jszip.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\loaders.css\\loaders.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\loaders.css\\loaders.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\matchmedia\\index.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\matchmedia\\index.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\modernizr\\modernizr.custom.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\modernizr\\modernizr.custom.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\moment\\min\\moment-with-locales.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\moment\\min\\moment-with-locales.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\morris.js.so\\morris.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\morris.js.so\\morris.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\morris.js.so\\morris.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\morris.js.so\\morris.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\nestable\\jquery.nestable.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\nestable\\jquery.nestable.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\parsleyjs\\dist\\parsley.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\parsleyjs\\dist\\parsley.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\pdfmake\\build\\pdfmake.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\pdfmake\\build\\pdfmake.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\pdfmake\\build\\vfs_fonts.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\pdfmake\\build\\vfs_fonts.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\popper.js\\dist\\umd\\popper.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\popper.js\\dist\\umd\\popper.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\raphael\\raphael.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\raphael\\raphael.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\rickshaw\\rickshaw.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\rickshaw\\rickshaw.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\rickshaw\\rickshaw.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\rickshaw\\rickshaw.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\screenfull\\dist\\screenfull.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\screenfull\\dist\\screenfull.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\select2\\dist\\css\\select2.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\select2\\dist\\css\\select2.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\select2\\dist\\js\\select2.full.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\select2\\dist\\js\\select2.full.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\simple-line-icons\\css\\simple-line-icons.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\simple-line-icons\\css\\simple-line-icons.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\simple-line-icons\\fonts\\Simple-Line-Icons.eot",
+      "PackagePath": "staticwebassets\\content\\vendor\\simple-line-icons\\fonts\\Simple-Line-Icons.eot"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\simple-line-icons\\fonts\\Simple-Line-Icons.svg",
+      "PackagePath": "staticwebassets\\content\\vendor\\simple-line-icons\\fonts\\Simple-Line-Icons.svg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\simple-line-icons\\fonts\\Simple-Line-Icons.ttf",
+      "PackagePath": "staticwebassets\\content\\vendor\\simple-line-icons\\fonts\\Simple-Line-Icons.ttf"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\simple-line-icons\\fonts\\Simple-Line-Icons.woff",
+      "PackagePath": "staticwebassets\\content\\vendor\\simple-line-icons\\fonts\\Simple-Line-Icons.woff"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\simple-line-icons\\fonts\\Simple-Line-Icons.woff2",
+      "PackagePath": "staticwebassets\\content\\vendor\\simple-line-icons\\fonts\\Simple-Line-Icons.woff2"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\spinkit\\css\\spinkit.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\spinkit\\css\\spinkit.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\sweetalert\\dist\\sweetalert.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\sweetalert\\dist\\sweetalert.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\sweetalert\\dist\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\sweetalert\\dist\\sweetalert.min.js"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\weather-icons\\css\\weather-icons-wind.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\weather-icons\\css\\weather-icons-wind.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\weather-icons\\css\\weather-icons.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\weather-icons\\css\\weather-icons.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\weather-icons\\font\\weathericons-regular-webfont.eot",
+      "PackagePath": "staticwebassets\\content\\vendor\\weather-icons\\font\\weathericons-regular-webfont.eot"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\weather-icons\\font\\weathericons-regular-webfont.svg",
+      "PackagePath": "staticwebassets\\content\\vendor\\weather-icons\\font\\weathericons-regular-webfont.svg"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\weather-icons\\font\\weathericons-regular-webfont.ttf",
+      "PackagePath": "staticwebassets\\content\\vendor\\weather-icons\\font\\weathericons-regular-webfont.ttf"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\weather-icons\\font\\weathericons-regular-webfont.woff",
+      "PackagePath": "staticwebassets\\content\\vendor\\weather-icons\\font\\weathericons-regular-webfont.woff"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\weather-icons\\font\\weathericons-regular-webfont.woff2",
+      "PackagePath": "staticwebassets\\content\\vendor\\weather-icons\\font\\weathericons-regular-webfont.woff2"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\whirl\\dist\\whirl.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\whirl\\dist\\whirl.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\x-editable\\dist\\bootstrap3-editable\\css\\bootstrap-editable.css",
+      "PackagePath": "staticwebassets\\content\\vendor\\x-editable\\dist\\bootstrap3-editable\\css\\bootstrap-editable.css"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\x-editable\\dist\\bootstrap3-editable\\img\\clear.png",
+      "PackagePath": "staticwebassets\\content\\vendor\\x-editable\\dist\\bootstrap3-editable\\img\\clear.png"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\x-editable\\dist\\bootstrap3-editable\\img\\loading.gif",
+      "PackagePath": "staticwebassets\\content\\vendor\\x-editable\\dist\\bootstrap3-editable\\img\\loading.gif"
+    },
+    {
+      "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\content\\vendor\\x-editable\\dist\\bootstrap3-editable\\js\\bootstrap-editable.js",
+      "PackagePath": "staticwebassets\\content\\vendor\\x-editable\\dist\\bootstrap3-editable\\js\\bootstrap-editable.js"
+    },
+    {
       "Id": "E:\\ROVIN\\DevOPs\\InvoiceERP\\InvoiceERP\\InvoiceERP\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

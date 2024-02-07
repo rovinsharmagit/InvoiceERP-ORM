@@ -1,4 +1,4 @@
-@model InvoiceERP.Models.TblUserType
+﻿@model InvoiceERP.Models.TblUserType
 
 @{
     ViewData["Title"] = "Edit";
@@ -21,6 +21,7 @@
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
+            @Html.AntiForgeryToken()
         </form>
     </div>
 </div>
@@ -28,4 +29,5 @@
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
+
 

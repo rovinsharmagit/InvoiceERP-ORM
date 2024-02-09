@@ -252,4 +252,4 @@ E:\ROVIN\DevOPs\InvoiceERP\InvoiceERP\InvoiceERP\bin\Debug\net7.0\tr\Microsoft.C
 E:\ROVIN\DevOPs\InvoiceERP\InvoiceERP\InvoiceERP\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 E:\ROVIN\DevOPs\InvoiceERP\InvoiceERP\InvoiceERP\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 E:\ROVIN\DevOPs\InvoiceERP\InvoiceERP\InvoiceERP\bin\Debug\net7.0\dotenv.net.dll
-E:\ROVIN\DevOPs\InvoiceERP\InvoiceERP\InvoiceERP\obj\Debug\net7.0\InvoiceERP.sourcelink.json
+E:\ROVIN\DevOPs\InvoiceERP\InvoiceERP\InvoiceERP\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll

@@ -2820,7 +2820,7 @@
 
 (function(window, document, $, undefined) {
 
-    $(function() {
+    $(document).ready(function () {
 
         $('#swal-demo1').on('click', function(e) {
             e.preventDefault();

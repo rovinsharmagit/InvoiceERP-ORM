@@ -66,5 +66,5 @@ public  class TblUser
 
     public  ICollection<TblTransaction> TblTransactions { get; } = new List<TblTransaction>();
 
-    public  TblUserType UserType { get; set; } = null!;
+    public  TblUserType? UserType { get; set; } 
 }

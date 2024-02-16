@@ -1,14 +1,16 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Security.Claims;
+using System.Text;
 using System.Threading.Tasks;
 using InvoiceERP.IRepositories;
-using InvoiceERP.Models;
-using System.Security.Claims;
 using InvoiceERP.IServices;
-using System.Text;
+using InvoiceERP.Models;
 
 namespace InvoiceERP.Controllers
-{ 
-    
+{
     public class AuthController : Controller
     {
         private readonly ILoginService _loginService;
@@ -28,7 +30,7 @@ namespace InvoiceERP.Controllers
 
         [HttpPost("Login")]
         [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Login(string username, string password)
+        public async Task<IActionResult> Login(string username, string password)
         {
             try
             {
@@ -53,10 +55,40 @@ namespace InvoiceERP.Controllers
                         // Set claims to session
                         foreach (var claim in claims)
                         {
-                            HttpContext.Session.Set(claim.Type, Encoding.UTF8.GetBytes(claim.Value));
+                            HttpContext.Session.SetString(claim.Type, claim.Value);
+                        }
+                        
+                        // Generate token
+                        var token = _jwtService.GenerateToken(user);
+
+                        // Set token to session
+                        HttpContext.Session.SetString("Token", token);
+
+                        //Get token creation time
+                        DateTime? IssuedAt = null;
+                        //Get token creation time
+                        if (!string.IsNullOrEmpty(token))
+                        {
+                            IssuedAt = _jwtService.GetTokenIssueTime(token);
+                            if (IssuedAt.HasValue)
+                            {
+                                HttpContext.Session.SetString("SessionCreatedAt", IssuedAt.Value.ToString());
+                            }
                         }
 
-                        return RedirectToAction("Index", "Home"); // Change this to your actual dashboard/home page
+                        // Get token expiration time
+                        DateTime? expiresAt = null;
+                        // Get token expiration time
+                        if (!string.IsNullOrEmpty(token))
+                        {
+                            expiresAt = _jwtService.GetTokenExpirationTime(token);
+                            if (expiresAt.HasValue)
+                            {
+                                HttpContext.Session.SetString("SessionExpiresAt", expiresAt.Value.ToString());
+                            }
+                        }
+
+                        return RedirectToAction("TokenInfo");
                     }
                     else
                     {
@@ -79,6 +111,86 @@ namespace InvoiceERP.Controllers
                 ViewBag.GErrorMessage = ex + "An error occurred while processing your request.";
                 return View();
             }
+        }
+
+        [AcceptVerbs("GET", "POST")]
+        public IActionResult TokenInfo()
+        {
+            // Get token from session
+            var token = HttpContext.Session.GetString("Token");
+
+            // Generate token claims from session
+            var claims = new List<Claim>();
+            foreach (var key in HttpContext.Session.Keys)
+            {
+                var value = HttpContext.Session.GetString(key);
+                if (!string.IsNullOrEmpty(value))
+                {
+                    claims.Add(new Claim(key, value));
+                }
+            }
+
+            // Get token expiration time
+            DateTime? expiresAt = null;
+            // Get token expiration time
+            if (!string.IsNullOrEmpty(token))
+            {
+                expiresAt = _jwtService.GetTokenExpirationTime(token);
+                if (expiresAt.HasValue)
+                {
+                    HttpContext.Session.SetString("SessionExpiresAt", expiresAt.Value.ToString());
+                }
+            }
+
+            //Get token creation time
+            DateTime? IssuedAt = null;
+            //Get token creation time
+            if (!string.IsNullOrEmpty(token))
+            {
+                IssuedAt = _jwtService.GetTokenIssueTime(token);
+                if (IssuedAt.HasValue)
+                {
+                    HttpContext.Session.SetString("SessionCreatedAt", IssuedAt.Value.ToString());
+                }
+            }
+            // Set token IIssuueedd time to session
+            if (IssuedAt.HasValue)
+            {
+                HttpContext.Session.SetString("SessionCreatedAt", IssuedAt.Value.ToString());
+
+                // Set token information to ViewBag for display
+                
+                ViewBag.IssuedAt = IssuedAt.Value; // Issued at time is the current time
+            }
+
+            // Set token expiration time to session
+            if (expiresAt.HasValue)
+            {
+                HttpContext.Session.SetString("SessionExpiration", expiresAt.Value.ToString());
+
+                // Set token information to ViewBag for display
+                ViewBag.Token = token;
+                ViewBag.Claims = claims;
+                ViewBag.ExpiresAt = expiresAt.Value;
+            }
+
+            return View("~/Views/Token/TokenInfo.cshtml");
+        }
+
+        [HttpPost("AcceptSession")]
+        [ValidateAntiForgeryToken]
+        public IActionResult AcceptSession()
+        {
+            
+            // Perform any actions needed when the session is accepted
+            return RedirectToAction("Index", "Home");
+        }
+
+        [HttpGet("RejectSession")]
+        public IActionResult RejectSession()
+        {
+            // Perform any actions needed when the session is rejected
+            return RedirectToAction("Login");
         }
     }
 }

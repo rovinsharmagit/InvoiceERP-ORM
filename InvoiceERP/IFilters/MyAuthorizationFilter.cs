@@ -7,7 +7,7 @@ namespace InvoiceERP.IFilters
 {
     public class MyAuthorizationFilter : IAuthorizationFilter
     {
-        private readonly string[] _whitelistedPaths = { "/", "/Home/Index" };
+        private readonly string[] _whitelistedPaths = { "/", "/Auth/Login" };
 
         public void OnAuthorization(AuthorizationFilterContext context)
         {

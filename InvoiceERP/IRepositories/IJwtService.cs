@@ -7,5 +7,8 @@ namespace InvoiceERP.IRepositories
     {
         string GenerateToken(TblUser user);
         IEnumerable<Claim> GenerateTokenClaims(TblUser user);
+        DateTime GetTokenExpirationTime(string token);
+        DateTime GetTokenIssueTime(string token);
+
     }
 }

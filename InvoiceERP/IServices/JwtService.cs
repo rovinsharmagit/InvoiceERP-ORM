@@ -30,7 +30,7 @@ namespace InvoiceERP.IServices
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(GenerateTokenClaims(user)),
-                Expires = DateTime.UtcNow.AddDays(7), // Token expiry time
+                Expires = DateTime.Now.AddMinutes(5), // Token expiry time
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),
                 Issuer = _issuer,
                 Audience = _audience
@@ -55,5 +55,32 @@ namespace InvoiceERP.IServices
             };
             return claims;
         }
+
+        public DateTime GetTokenExpirationTime(string token)
+        {
+            var tokenHandler = new JwtSecurityTokenHandler();
+            if (tokenHandler.ReadToken(token) is JwtSecurityToken jwtToken)
+            {
+                return jwtToken.ValidTo; // Return the token's expiration time
+            }
+            else
+            {
+                throw new ArgumentException("Invalid token.");
+            }
+        }
+
+        public DateTime GetTokenIssueTime(string token)
+        {
+            var tokenHandler = new JwtSecurityTokenHandler();
+            if (tokenHandler.ReadToken(token) is JwtSecurityToken jwtToken)
+            {
+                return jwtToken.ValidFrom; // Return the token's expiration time
+            }
+            else
+            {
+                throw new ArgumentException("Invalid token.");
+            }
+        }
+
     }
 }

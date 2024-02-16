@@ -1,5 +1,6 @@
 using InvoiceERP.iDbContext;
 using InvoiceERP.IFilters;
+using InvoiceERP.IMiddlewares;
 using InvoiceERP.IRepositories;
 using InvoiceERP.IServices;
 using InvoiceERP.Services;
@@ -30,7 +31,7 @@ builder.Services.AddAntiforgery(options =>
 builder.Services.AddSession(options =>
 {
     // Set a short timeout for easy testing
-    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.IdleTimeout = TimeSpan.FromMinutes(5);
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true; // Make the session cookie essential
 });
@@ -39,7 +40,7 @@ builder.Services.AddSession(options =>
 builder.Services.Configure<CookiePolicyOptions>(options =>
 {
     options.MinimumSameSitePolicy = SameSiteMode.Lax;
-    options.Secure = builder.Environment.IsDevelopment() ? CookieSecurePolicy.SameAsRequest : CookieSecurePolicy.Always;
+    options.Secure = builder.Environment.IsDevelopment() ? CookieSecurePolicy.None : CookieSecurePolicy.None;
 });
 
 builder.Services.AddScoped<IUserTypeService, UserTypeService>();
@@ -95,19 +96,25 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseStaticFiles();
-
-
-app.UseRouting();
-
-app.UseSession();
-
-app.UseAuthorization();
-app.UseCookiePolicy(new CookiePolicyOptions
+app.Use(async (context, next) =>
 {
-    MinimumSameSitePolicy = SameSiteMode.Lax,
-    Secure = app.Environment.IsDevelopment() ? CookieSecurePolicy.SameAsRequest : CookieSecurePolicy.Always
+    context.Response.GetTypedHeaders().CacheControl =
+        new Microsoft.Net.Http.Headers.CacheControlHeaderValue()
+        {
+            NoCache = true,
+            NoStore = true,
+            MustRevalidate = true
+        };
+    context.Response.Headers[Microsoft.Net.Http.Headers.HeaderNames.Pragma] = new string[] { "no-cache" };
+    context.Response.Headers[Microsoft.Net.Http.Headers.HeaderNames.Expires] = new string[] { "0" };
+    await next();
 });
+app.UseStaticFiles();
+app.UseRouting();
+app.UseSession();
+app.UseAuthorization();
+app.UseMiddleware<ValidateTokenMiddleware>();
+
 
 app.MapControllerRoute(
     name: "default",

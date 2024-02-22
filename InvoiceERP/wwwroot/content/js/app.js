@@ -1482,18 +1482,6 @@
     });
 
 })(window, document, window.jQuery);
-
-//Loader
-(function (window, document, $, undefined) {
-
-    $(document).ready(function () {
-        $(window).on('load', function () {
-            $('#loaderme').fadeOut();
-        });
-    }); 
-
-})(window, document, window.jQuery);
-
 // Start Bootstrap JS
 // -----------------------------------
 

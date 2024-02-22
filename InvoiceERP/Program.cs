@@ -4,7 +4,6 @@ using InvoiceERP.IMiddlewares;
 using InvoiceERP.IRepositories;
 using InvoiceERP.IServices;
 using InvoiceERP.Services;
-using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.CookiePolicy;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -26,11 +25,7 @@ builder.Services.AddDbContext<IDataContext>(options =>
 // Configure AntiForgery service
 builder.Services.AddAntiforgery(options =>
 {
-    
-    options.Cookie.HttpOnly = true;
-    options.Cookie.SameSite = SameSiteMode.None;
-    options.Cookie.IsEssential = true; // Make the session cookie essential
-
+    options.HeaderName = "X-XSRF-TOKEN"; // Change header name if needed
 });
 
 builder.Services.AddSession(options =>
@@ -39,16 +34,13 @@ builder.Services.AddSession(options =>
     options.IdleTimeout = TimeSpan.FromMinutes(5);
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true; // Make the session cookie essential
-    options.Cookie.SameSite = SameSiteMode.None;
-
 });
 
 // Configure SameSite attribute and Secure flag for all cookies
 builder.Services.Configure<CookiePolicyOptions>(options =>
 {
-    options.MinimumSameSitePolicy = SameSiteMode.None;
-    options.HttpOnly = HttpOnlyPolicy.Always; 
-    options.Secure = builder.Environment.IsDevelopment() ? CookieSecurePolicy.SameAsRequest : CookieSecurePolicy.SameAsRequest;
+    options.MinimumSameSitePolicy = SameSiteMode.Lax;
+    options.Secure = builder.Environment.IsDevelopment() ? CookieSecurePolicy.None : CookieSecurePolicy.None;
 });
 
 builder.Services.AddScoped<IUserTypeService, UserTypeService>();
@@ -68,15 +60,6 @@ builder.Services.AddSingleton<IJwtService>(provider =>
 
     return new JwtService(secretKey, issuer, audience);
 });
-
-// Add cookie authentication and set the default scheme
-builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-    .AddCookie(options =>
-    {
-        // Configure the cookie options
-        options.LoginPath = "/Auth/Login";
-        options.AccessDeniedPath = "/Auth/Login";
-    });
 
 // Add login service
 builder.Services.AddScoped<ILoginService, LoginService>();

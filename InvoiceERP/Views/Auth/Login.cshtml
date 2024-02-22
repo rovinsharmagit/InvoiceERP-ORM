@@ -16,6 +16,15 @@
     <link rel="stylesheet" href="~/content/vendor/font-awesome/css/font-awesome.css">
     <!-- SIMPLE LINE ICONS-->
     <link rel="stylesheet" href="~/content/vendor/simple-line-icons/css/simple-line-icons.css">
+    <!-- ANIMATE.CSS-->
+    <link rel="stylesheet" href="~/content/vendor/animate.css/animate.css">
+    <!-- WHIRL (spinners)-->
+    <link rel="stylesheet" href="~/content/vendor/whirl/dist/whirl.css">
+    <!-- =============== PAGE VENDOR STYLES ===============-->
+    <!-- Loaders.css-->
+    <link rel="stylesheet" href="~/content/vendor/loaders.css/loaders.css">
+    <!-- Spinkit-->
+    <link rel="stylesheet" href="~/content/vendor/spinkit/css/spinkit.css">
     <!-- =============== BOOTSTRAP STYLES ===============-->
     <link rel="stylesheet" href="~/content/css/bootstrap.css" id="bscss">
     <!-- =============== APP STYLES ===============-->
@@ -25,6 +34,15 @@
 <body>
     <div class="wrapper">
         <div class="block-center mt-4 wd-xl">
+            @if (!String.IsNullOrEmpty(ViewBag.InvalidCredentialsMessage))
+            {
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <strong>Error! @ViewBag.InvalidCredentialsMessage</strong>
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            }
             <!-- START card-->
             <div class="card card-flat">
                 <div class="card-header text-center bg-dark">
@@ -34,22 +52,21 @@
                 </div>
                 <div class="card-body">
                     <p class="text-center py-2">SIGN IN TO CONTINUE.</p>
-                    <span class="input-group-text fa fa-envelope text-center text-muted bg-transparent border-left-0">@ViewBag.ErrorMessage</span>
                     <form class="mb-3" id="loginForm" asp-controller="Auth" asp-action="Login" method="post">
                         @Html.AntiForgeryToken()
                         <div class="form-group">
                             <div class="input-group with-focus">
-                                <input class="form-control border-right-0" id="username" name="username" type="email" placeholder="Enter email" autocomplete="off" required>
+                                <input class="form-control border-right-0" id="username" name="username" type="email" placeholder="Enter Username" autocomplete="off"  required data-parsley-error-message="Username is Required">
                                 <div class="input-group-append">
-                                    <span class="input-group-text fa fa-envelope text-muted bg-transparent border-left-0">@ViewBag.UserNotFoundMessage</span>
+                                    <span class="input-group-text fa fa-envelope text-muted bg-transparent border-left-0"></span>
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="input-group with-focus">
-                                <input class="form-control border-right-0" id="password" name="password" type="password" placeholder="Password" required>
+                                <input class="form-control border-right-0" id="password" name="password" type="password" placeholder=" Enter Password" required data-parsley-error-message="Password is Required" autocomplete="off">
                                 <div class="input-group-append">
-                                    <span class="input-group-text fa fa-lock text-muted bg-transparent border-left-0">@ViewBag.InvalidCredentialsMessage</span>
+                                    <span class="input-group-text fa fa-lock text-muted bg-transparent border-left-0"></span>
                                 </div>
                             </div>
                         </div>
@@ -82,11 +99,21 @@
     <!-- JQUERY-->
     <script src="~/content/vendor/jquery/dist/jquery.js"></script>
     <!-- BOOTSTRAP-->
+    <!-- BOOTSTRAP-->
+    <script src="~/content/vendor/popper.js/dist/umd/popper.js"></script>
     <script src="~/content/vendor/bootstrap/dist/js/bootstrap.js"></script>
     <!-- STORAGE API-->
     <script src="~/content/vendor/js-storage/js.storage.js"></script>
     <!-- PARSLEY-->
     <script src="~/content/vendor/parsleyjs/dist/parsley.js"></script>
+    <!-- JQUERY EASING-->
+    <script src="~/content/vendor/jquery.easing/jquery.easing.js"></script>
+    <!-- ANIMO-->
+    <script src="~/content/vendor/animo/animo.js"></script>
+    <!-- SCREENFULL-->
+    <script src="~/content/vendor/screenfull/dist/screenfull.js"></script>
+    <!-- LOCALIZE-->
+    <script src="~/content/vendor/jquery-localize/dist/jquery.localize.js"></script>
     <!-- =============== APP SCRIPTS ===============-->
     <script src="~/content/js/app.js"></script>
 </body>

@@ -5,8 +5,12 @@ using System;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.Routing;
 
+using InvoiceERP.IFilters;
+using Microsoft.AspNetCore.Authorization;
+
 namespace InvoiceERP.Controllers
 {
+    
     [Route("UserTypes")]
     public class UserTypesController : Controller
     {

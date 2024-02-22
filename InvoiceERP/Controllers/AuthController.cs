@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using InvoiceERP.IRepositories;
 using InvoiceERP.IServices;
 using InvoiceERP.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace InvoiceERP.Controllers
 {
@@ -27,7 +28,7 @@ namespace InvoiceERP.Controllers
         {
             return View("Login");
         }
-
+        
         [HttpPost("Login")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(string username, string password)
@@ -159,7 +160,6 @@ namespace InvoiceERP.Controllers
                 HttpContext.Session.SetString("SessionCreatedAt", IssuedAt.Value.ToString());
 
                 // Set token information to ViewBag for display
-                
                 ViewBag.IssuedAt = IssuedAt.Value; // Issued at time is the current time
             }
 

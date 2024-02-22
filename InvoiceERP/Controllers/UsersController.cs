@@ -3,12 +3,14 @@ using System.Threading.Tasks;
 using InvoiceERP.IRepositories;
 using InvoiceERP.Models;
 using InvoiceERP.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
 
 namespace InvoiceERP.Controllers
 {
+    
     [Route("Users")]
     public class UsersController : Controller
     {
